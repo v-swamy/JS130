@@ -69,9 +69,3 @@ class SimpleLinkedList {
 }
 
 module.exports = { SimpleLinkedList, Element };
-
-let data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let list = SimpleLinkedList.fromArray(data);
-console.log(list.list);
-console.log(list.toArray());
-console.log(data);

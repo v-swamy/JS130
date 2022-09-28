@@ -17,7 +17,7 @@ let Robot = (function() {
   }
 
   function pickFrom(string) {
-    let index = Math.floor(Math.random() * (string.length + 1));
+    let index = Math.floor(Math.random() * (string.length));
     return string[index];
   }
 
@@ -46,4 +46,7 @@ let Robot = (function() {
 })();
 
 module.exports = Robot;
+
+let robot = new Robot();
+console.log(robot.name());
 
